@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>DSDT</key>
+		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>AddMCHC</key>
+				<true/>
+				<key>FixHPET</key>
+				<true/>
+				<key>FixIPIC</key>
+				<true/>
+				<key>FixRTC</key>
+				<true/>
+				<key>FixShutdown</key>
+				<true/>
+				<key>FixTMR</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+    <key>Boot</key>
+    <dict>
+        <key>Arguments</key>
+        <string>-v debug=0x100 keepsyms=1 -disablegfxfirmware slide=0</string>
+        <key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
+		<key>NeverHibernate</key>
+		<true/>
+		<key>Timeout</key>
+		<integer>5</integer>
+
+    </dict>
+    <key>RtVariables</key>
+	<dict>
+		<key>BooterConfig</key>
+		<string>0x028</string>
+		<key>CsrActiveConfig</key>
+		<string>0x67</string>
+	</dict>
+
+    <key>Devices</key>
+    <dict>
+    <key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>layout-id</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>model</key>
+				<string>Cannon Lake PCH cAVS</string>
+			</dict>
+		</dict>
+        <key>USB</key>
+        <dict>
+            <key>FixOwnership</key>
+            <true/>
+        </dict>
+        <key>Audio</key>
+		<dict>
+			<key>AFGLowPowerState</key>
+			<true/>
+			<key>Inject</key>
+			<string>No</string>
+			<true/>
+		</dict>
+    </dict>
+    <key>Graphics</key>
+	<dict>
+		<key>Inject</key>
+		<false/>
+	</dict>
+    <key>KernelAndKextPatches</key>
+    <dict>
+        <key>KextsToPatch</key>
+        <array>
+            <dict>
+                <key>Comment</key>
+                <string>Port limit increase (Ricky)</string>
+                <key>Disabled</key>
+                <false/>
+                <key>Find</key>
+                <data>
+                g/sPD4OPBAAA
+                </data>
+                <key>InfoPlistPatch</key>
+                <false/>
+                <key>MatchOS</key>
+                <string>10.15.x</string>
+                <key>Name</key>
+                <string>com.apple.driver.usb.AppleUSBXHCI</string>
+                <key>Replace</key>
+                <data>
+                g/sPkJCQkJCQ
+                </data>
+            </dict>
+        </array>
+    </dict>
+    <key>SMBIOS</key>
+    <dict>
+        
+        <key>BoardSerialNumber</key>
+		<string>REMOVED</string>
+		<key>ProductName</key>
+        <string>iMac19,1</string>
+        <key>SerialNumber</key>
+		<string>REMOVED</string>
+		<key>SmUUID</key>
+		<string>REMOVED</string>
+
+    </dict>
+    <key>SystemParameters</key>
+    <dict>
+        <key>InjectKexts</key>
+        <string>Yes</string>
+        <key>InjectSystemID</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
