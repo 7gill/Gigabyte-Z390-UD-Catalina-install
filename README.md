@@ -27,7 +27,7 @@ I used this guide as my starting point
 * Audio
 	* Fixed with AppleALC, used audio instructions from  [https://www.tonymacx86.com/threads/an-idiots-guide-to-lilu-and-its-plug-ins.260063/#AppleALC](https://www.tonymacx86.com/threads/an-idiots-guide-to-lilu-and-its-plug-ins.260063/#AppleALC) 
 * Sleep/Shutdown
-	~~Seems to work~~ Nope, fixed it with the instructions on [this](https://www.reddit.com/r/hackintosh/comments/bdbn8w/new_hackintosh_mostly_working_except_for/) page. As it states in the comments, they are not too sure if it is the  FakeSMC, EmuVariableUefi-64, HFSPlus-64, and slide=0 boot argument that fixed the issues but seems to work now
+	~~Seems to work~~ Nope, fixed it with the instructions on [this](https://www.reddit.com/r/hackintosh/comments/bdbn8w/new_hackintosh_mostly_working_except_for/) page. As it states in the comments, they are not too sure if it is the  FakeSMC, EmuVariableUefi-64, HFSPlus-64, and slide=0 boot argument that fixed the issues but seems to work now. Long and short of it is that I had to replace VirtualSMC with FakeSMC. 
 * NVRAM
 	* Not fixed as of yet
 
