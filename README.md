@@ -5,7 +5,7 @@
 * **Intel Core i7-9700K Processor**
 * **Noctua NH-D15S CPU Cooler**
 * **Corsair Vengeance LPX 32GB (2x16GB) DDR4-2666 CL16 - White**
-* **MSI RADEON RX 580 ARMOR 8G OC Graphics Card**
+* l**MSI RADEON RX 580 ARMOR 8G OC Graphics Card**
 * **Intel 660P Series 2TB M.2 NVMe SSD**
 * **Deepcool MACUBE 550 TG Mid Tower Case - Black**
 * **Silverstone Strider ST65F-GS 650W Full Modular 80Plus Gold Power Supply**
@@ -13,7 +13,7 @@
 * **Loctek DLB111 10”-30” Single Monitor Ergonomic Swivel Arm**
 * **A bunch of old hard drives**
 
-I wanted to go with OpenCore but my brain broke trying to configure it, I’ll give it a go at a later date
+I wanted to go with OpenCore but my brain broke trying to configure it, I’ll give it a go at a later date. Also, I am no expert in this kind of stuff, I'm just a guy who followed some instructions on the internet. 
 
 I used this guide as my starting point 
 [Minimal Clover Config and Drivers for Gigabyte Z390 I WIFI : hackintosh](https://www.reddit.com/r/hackintosh/comments/az7ld1/minimal_clover_config_and_drivers_for_gigabyte/%0A)
