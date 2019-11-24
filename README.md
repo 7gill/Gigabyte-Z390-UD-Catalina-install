@@ -30,3 +30,7 @@ I used this guide as my starting point
 	~~Seems to work~~ Nope, fixed it with the instructions on [this](https://www.reddit.com/r/hackintosh/comments/bdbn8w/new_hackintosh_mostly_working_except_for/) page. As it states in the comments, they are not too sure if it is the  FakeSMC, EmuVariableUefi-64, HFSPlus-64, and slide=0 boot argument that fixed the issues but seems to work now
 * NVRAM
 	* Not fixed as of yet
+
+
+## Comments
+If anyone with similar hardware finds this useful, sweet. 
