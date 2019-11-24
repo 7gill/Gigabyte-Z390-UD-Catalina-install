@@ -34,3 +34,5 @@ I used this guide as my starting point
 
 ## Comments
 If anyone with similar hardware finds this useful, sweet. 
+
+While the miminalist guide where I started was pretty sparse with the kexts and .efi file mine seems a bit more messy. To be honest I am not to sure the drivers>bios folder is needed at all but what do I know. It all seems to work so I am happy.  
