@@ -30,6 +30,9 @@ I used this guide as my starting point
 	~~Seems to work~~ Nope, fixed it with the instructions on [this](https://www.reddit.com/r/hackintosh/comments/bdbn8w/new_hackintosh_mostly_working_except_for/) page. As it states in the comments, they are not too sure if it is the  FakeSMC, EmuVariableUefi-64, HFSPlus-64, and slide=0 boot argument that fixed the issues but seems to work now. Long and short of it is that I had to replace VirtualSMC with FakeSMC. 
 * NVRAM
 	* Not fixed as of yet
+	
+* USB (3/12/2019) 
+	* I just realized that I had USB issues I wasn't aware of. I use the guide [here] (https://www.youtube.com/watch?v=j3V7szXZZTc&feature=youtu.be) to walk me through how to create a map of my USB ports
 
 
 ## Comments
