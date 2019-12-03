@@ -19,7 +19,7 @@ I used this guide as my starting point
 [Minimal Clover Config and Drivers for Gigabyte Z390 I WIFI : hackintosh](https://www.reddit.com/r/hackintosh/comments/az7ld1/minimal_clover_config_and_drivers_for_gigabyte/%0A)
 
 ## UPDATE (3/12/2019)
-I hope things aren't getting too messy in my EFI folder but I will upload a second EFI folder (EFIredux) which has the changes since I discovered my USB issues. The USB map kext will be included but if you have a wifi/bluetooth card that plugs into on of the USB headers on the motherboard make sure you have it is HS12 otherwise the USBMap.kext I have will turn it off. 
+I hope things aren't getting too messy in my EFI folder but I will upload a second EFI folder (EFI_USB) which has the changes since I discovered my USB issues. The USB map kext will be included but if you have a wifi/bluetooth card that plugs into on of the USB headers on the motherboard make sure you have it is HS12 otherwise the USBMap.kext I have will turn it off. 
 
 ## Issues
 
@@ -40,15 +40,15 @@ I hope things aren't getting too messy in my EFI folder but I will upload a seco
 
 ## USB headers I enabled on for my USBMap.kext
 
-HS/SS01 left middle pair of ports 
-HS/SS02 right middle pair of ports
-HS/SS03 left bottom pair of ports
-HS/SS04 right bottom pair of ports
-HS/SS05 left top pair of ports
-HS/SS06 right top pair of ports
-HS07 (on my case front top right port)
-HS08 (on my case front top left port)
-HS12 internal USB 2 header for wifi/bluetooth
+* HS/SS01 left middle pair of ports 
+* HS/SS02 right middle pair of ports
+* HS/SS03 left bottom pair of ports
+* HS/SS04 right bottom pair of ports
+* HS/SS05 left top pair of ports
+* HS/SS06 right top pair of ports
+* HS07 (on my case front top right port)
+* HS08 (on my case front top left port)
+* HS12 internal USB 2 header for wifi/bluetooth
 
 This will make more sense if you watch the video I linked above under USB
 
