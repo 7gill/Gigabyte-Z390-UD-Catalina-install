@@ -18,6 +18,9 @@ I wanted to go with OpenCore but my brain broke trying to configure it, I’ll g
 I used this guide as my starting point 
 [Minimal Clover Config and Drivers for Gigabyte Z390 I WIFI : hackintosh](https://www.reddit.com/r/hackintosh/comments/az7ld1/minimal_clover_config_and_drivers_for_gigabyte/%0A)
 
+## UPDATE (3/12/2019)
+I hope things aren't getting too messy in my EFI folder but I will upload a second EFI folder (EFIredux) which has the changes since I discovered my USB issues. The USB map kext will be included but if you have a wifi/bluetooth card that plugs into on of the USB headers on the motherboard make sure you have it is HS12 otherwise the USBMap.kext I have will turn it off. 
+
 ## Issues
 
 * Ethernet
@@ -32,10 +35,28 @@ I used this guide as my starting point
 	* Not fixed as of yet
 	
 * USB (3/12/2019) 
-	* I just realized that I had USB issues I wasn't aware of. I use the guide [here] (https://www.youtube.com/watch?v=j3V7szXZZTc&feature=youtu.be) to walk me through how to create a map of my USB ports
+	* I just realized that I had USB issues I wasn't aware of. I use the guide [here] (https://www.youtube.com/watch?v=j3V7szXZZTc&feature=youtu.be) to walk me through how to create a map of my USB ports. More below
 
+
+## USB headers I enabled on for my USBMap.kext
+
+HS/SS01 left middle pair of ports 
+HS/SS02 right middle pair of ports
+HS/SS03 left bottom pair of ports
+HS/SS04 right bottom pair of ports
+HS/SS05 left top pair of ports
+HS/SS06 right top pair of ports
+HS07 (on my case front top right port)
+HS08 (on my case front top left port)
+HS12 internal USB 2 header for wifi/bluetooth
+
+This will make more sense if you watch the video I linked above under USB
 
 ## Comments
 If anyone with similar hardware finds this useful, sweet. 
 
-While the miminalist guide where I started was pretty sparse with the kexts and .efi file mine seems a bit more messy. To be honest I am not to sure the drivers>bios folder is needed at all but what do I know. It all seems to work so I am happy.  
+While the miminalist guide where I started was pretty sparse with the kexts and .efi file mine seems a bit more messy. To be honest I am not to sure the drivers>bios folder is needed at all but what do I know. It all seems to work so I am happy. 
+
+Also, I am just some dude on the internet who followed some instructions I am no expert on any of this shit. 
+
+
