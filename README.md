@@ -35,7 +35,7 @@ I hope things aren't getting too messy in my EFI folder but I will upload a seco
 	* Not fixed as of yet
 	
 * USB (3/12/2019) 
-	* I just realized that I had USB issues I wasn't aware of. I use the guide [here] (https://www.youtube.com/watch?v=j3V7szXZZTc&feature=youtu.be) to walk me through how to create a map of my USB ports. More below
+	* I just realized that I had USB issues I wasn't aware of. I use the guide [here](https://www.youtube.com/watch?v=j3V7szXZZTc&feature=youtu.be) to walk me through how to create a map of my USB ports. More below
 
 
 ## USB headers I enabled on for my USBMap.kext
