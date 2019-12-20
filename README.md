@@ -5,7 +5,7 @@
 * **Intel Core i7-9700K Processor**
 * **Noctua NH-D15S CPU Cooler**
 * **Corsair Vengeance LPX 32GB (2x16GB) DDR4-2666 CL16 - White**
-* l**MSI RADEON RX 580 ARMOR 8G OC Graphics Card**
+* **MSI RADEON RX 580 ARMOR 8G OC Graphics Card**
 * **Intel 660P Series 2TB M.2 NVMe SSD**
 * **Deepcool MACUBE 550 TG Mid Tower Case - Black**
 * **Silverstone Strider ST65F-GS 650W Full Modular 80Plus Gold Power Supply**
